@@ -1,4 +1,5 @@
-##EasyShop-Website
+# EasyShop-Website
+
 [EasyShop_Web_App_here.](https://rkcrocks144.pythonanywhere.com)
 
 This is a Djnago based shopping website, where a user can be a buyer, purchasing items or can act as a seller selling the products. 
