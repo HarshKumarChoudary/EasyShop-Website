@@ -1,4 +1,6 @@
-## EasyShop-Website
+##EasyShop-Website
+[EasyShop_Web_App_here.](https://rkcrocks144.pythonanywhere.com)
+
 This is a Djnago based shopping website, where a user can be a buyer, purchasing items or can act as a seller selling the products. 
 This is a fully functional Web App with a list of features given below:
 
@@ -28,5 +30,6 @@ Front View of the App is shown below:
 ![image](https://user-images.githubusercontent.com/64634235/113968971-bf0ceb80-9851-11eb-8a8b-663b92049a97.png)
 ![image](https://user-images.githubusercontent.com/64634235/113968987-c46a3600-9851-11eb-896f-17e744eacdbf.png)
 
-And the most important thing is that this APP is hosted using [**Python Anywhere**](https://rkcrocks144.pythonanywhere.com)
+And the most important thing is that this APP is hosted using **Python Anywhere**.
+
 This App, if developed can pove as a new startup.
