@@ -150,7 +150,8 @@ class profileview(View):
     def get(self,request):
         totalitem=0
         if request.user.is_authenticated:
-            totalitem = len(cart.objects.filter(buyer=buyer.objects.get(user=request.user)))
+            if buyer.objects.filter(user=request.user).exists():
+                totalitem = len(cart.objects.filter(buyer=buyer.objects.get(user=request.user)))
         form=customerprofileform()
         return render(request,'app/profile.html',{'form':form,'active':'btn-primary','total':totalitem})
 
