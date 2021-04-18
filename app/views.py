@@ -26,7 +26,8 @@ class buyers(View):
         #services = product.objects.filter(category=category.objects.get(name = 'Services').id)
         dailyneeds = product.objects.filter(category = category.objects.get(name = 'DailyNeeds').id) 
         if request.user.is_authenticated:
-            totalitem = len(cart.objects.filter(buyer=buyer.objects.get(user=request.user)))
+            if buyer.objects.filter(user=request.user).exists():
+                totalitem = len(cart.objects.filter(buyer=buyer.objects.get(user=request.user)))
         return render(request,'app/buyer.html',{'fashion':fashion,'electronics':electronics,'stationary':stationary,'topwear':topwear,'frontwear':frontwear,'dailyneeds':dailyneeds,'total':totalitem})
 
 
