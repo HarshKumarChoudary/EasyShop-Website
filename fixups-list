@@ -1,0 +1,1 @@
+in dbms.pptx file in Schemas in the tables we have to write that id of each table is a surrogate key since all of them are generally given by django as a default and hence these are surrogate keys.
