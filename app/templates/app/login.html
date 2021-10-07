@@ -14,7 +14,7 @@
     {{f.label_tag}}{{f}}<small class="text-danger">{{f.errors|striptags}}</small><br>
     </div>
     {% endfor %}
-    <small><a href="{% url 'app:password_reset' %}">Forot Password?</a></small><br>
+    <small><a href="{% url 'password_reset' %}">Forot Password?</a></small><br>
     <input type="submit" class="btn btn-primary mt-4" value="Login">
     <br>
     <div class="text-center text-primary fw-bold"><small> New to EasyShop ? <a href="{% url 'app:customerregistration' %}" class="text-danger">Create an Account</a></small></div>
